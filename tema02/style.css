@@ -16,36 +16,38 @@ h1{
     text-shadow: 16px 30px 6px red;
     letter-spacing: 20px;  /* Espacio entre letras */
     word-spacing: 40px;  /* Espacio entre textos */
-
-    transform: rotate(10deg);
-    margin-top: 200px;
 }
 
-
-p{
+p {
     font-size: 20px;
 }
 
-.saludar{
-    color: blue;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-.pregunta{
+.saludo {
     color: red;
 }
 
-button{
-    width: 80px;
-    height: 30px;
-    background-color: black;
-    color: #fff;
+.pregunta {
+    color: blue;
 }
 
-button:hover{
-    background-color: #b12a5b;
-    scale: 1.3;
+.respuesta {
+    color: blueviolet;
+    background-color: bisque;
+    font-size: 18px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background: #F90000;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #A40909;
+    scale: 0.9;
 }
 
 
